@@ -1,0 +1,72 @@
+*, *::after, *::before {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  outline: none;
+}
+
+.col-lg-4 {
+  position: relative;
+}
+
+.col-lg-4 .card-1 {
+  border: 1px solid #c8c8c8;
+  margin-bottom: 15px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.col-lg-4 .card-1 img {
+  width: 100%;
+}
+
+.col-lg-4 .card-1 .position {
+  position: absolute;
+  z-index: +1;
+  background-color: rgba(0, 0, 255, 0.338);
+  top: 15px;
+  color: white;
+  padding: 10px;
+  font-style: bold;
+}
+
+.col-lg-4 .card-text1 {
+  padding: 20px;
+}
+
+.col-lg-4 a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-style: bold;
+}
+
+.section {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section .text {
+  width: 60%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.section .button {
+  background-color: red;
+  color: white;
+  padding: 7px;
+  border: none;
+}
+
+.section p {
+  color: gray;
+}
+
+.section h2 {
+  color: purple;
+}
+/*# sourceMappingURL=style.css.map */

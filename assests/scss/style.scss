@@ -1,0 +1,59 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none;
+}
+.col-lg-4{
+    position: relative;
+.card-1{
+    border: 1px solid rgb(200, 200, 200);
+    margin-bottom: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    img{
+        width: 100%;
+    }
+    .position{
+        position: absolute;
+        z-index: +1;
+        background-color: rgba(0, 0, 255, 0.338);
+        top: 15px;
+        color: white;
+        padding: 10px;
+        font-style: bold;
+    }
+} 
+   .card-text1{
+        padding: 20px;
+    }
+     a{
+        text-decoration: none ;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-style: bold;
+    }
+}
+.section{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .text{
+        width: 60%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .button{
+        background-color: red;
+        color: white;
+        padding: 7px;
+        border: none;
+    }
+    p{
+        color: gray;
+    }
+    h2{
+        color:purple;
+
+    }
+}
