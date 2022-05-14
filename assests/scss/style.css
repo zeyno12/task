@@ -10,6 +10,11 @@
   position: relative;
 }
 
+.col-lg-4 .card-1:hover {
+  -webkit-box-shadow: rgba(255, 4, 4, 0.406) 0px 7px 29px 0px;
+          box-shadow: rgba(255, 4, 4, 0.406) 0px 7px 29px 0px;
+}
+
 .col-lg-4 .card-1 {
   border: 1px solid #c8c8c8;
   margin-bottom: 15px;
@@ -43,6 +48,11 @@
   font-style: bold;
 }
 
+.col-lg-4 a:hover {
+  background-color: blue;
+  color: white;
+}
+
 .section {
   text-align: center;
   margin-top: 25px;
@@ -55,11 +65,22 @@
   padding: 5px;
 }
 
+.section .text:hover {
+  -webkit-box-shadow: rgba(255, 4, 4, 0.406) 0px 7px 29px 0px;
+          box-shadow: rgba(255, 4, 4, 0.406) 0px 7px 29px 0px;
+  border: white;
+}
+
 .section .button {
   background-color: red;
   color: white;
   padding: 7px;
   border: none;
+}
+
+.section .button:hover {
+  background-color: blue;
+  color: white;
 }
 
 .section p {

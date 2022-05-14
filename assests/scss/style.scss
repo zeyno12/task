@@ -6,6 +6,9 @@
 }
 .col-lg-4{
     position: relative;
+.card-1:hover{
+    box-shadow:rgba(255, 4, 4, 0.406) 0px 7px 29px 0px ;
+}
 .card-1{
     border: 1px solid rgb(200, 200, 200);
     margin-bottom: 15px;
@@ -33,6 +36,10 @@
         padding: 10px;
         font-style: bold;
     }
+    a:hover{
+        background-color: blue;
+        color: white;
+    }
 }
 .section{
     text-align: center;
@@ -43,11 +50,19 @@
         margin-top: 10px;
         padding: 5px;
     }
+    .text:hover{
+        box-shadow:rgba(255, 4, 4, 0.406) 0px 7px 29px 0px ; 
+        border: white;  
+    }
     .button{
         background-color: red;
         color: white;
         padding: 7px;
         border: none;
+    }
+    .button:hover{
+        background-color: blue;
+        color: white;
     }
     p{
         color: gray;
